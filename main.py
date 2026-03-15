@@ -13,7 +13,7 @@ def fix_filename(wrong_name):
         print(f"Ошибка перекодировки: {e}")
         return wrong_name
 
-# Выбор и переименование файла
+# Выбор и переименование файла.
 def select_and_rename_file():
     # 1. Выбор файла
     file_path = filedialog.askopenfilename(
